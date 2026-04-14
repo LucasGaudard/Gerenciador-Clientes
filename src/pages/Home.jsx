@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ClientForm from "../components/ClientForm";
 import ClientList from "../components/ClientList";
-import Navbar from "../components/Navbar";
+
 import api from "../services/api";
 
 function Home() {
