@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import ClientForm from "../components/ClientForm";
 import ClientList from "../components/ClientList";
-
 import api from "../services/api";
 
 function Home() {
