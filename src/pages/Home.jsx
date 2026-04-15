@@ -4,6 +4,7 @@ import ClientList from "../components/ClientList";
 import api from "../services/api";
 
 function Home() {
+
   const [clients, setClients] = useState([]);
   const [clientEditing, setClientEditing] = useState(null);
   const [loading, setLoading] = useState(true);
